@@ -12,13 +12,19 @@ $font-family-sans-serif:
   // Emoji fonts
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-.container{
-    .jumbotron{
-        background-color: #fcc99f;
-        font-family: $font-family-sans-serif;
-        p{
-            font-family: 'Monotype Corsiva', 'sans-serif';
-        }
+.jumbotron{
+    font-family: $font-family-sans-serif;
+    p{
+        font-family: 'Monotype Corsiva', 'sans-serif';
     }
+    text-align: center;
+}
 
+.container{
+    #about{
+        text-align:center;
+        font-family: $font-family-sans-serif;
+        font-weight: lighter;
+        text-justify: newspaper;
+    }
 }

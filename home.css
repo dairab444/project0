@@ -1,8 +1,12 @@
-.container .jumbotron {
-  background-color: #fcc99f;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+body {
+  background: #e4ad7d;
 }
-.container .jumbotron p {
+
+.jumbotron {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+}
+.jumbotron p {
   font-family: "Monotype Corsiva", "sans-serif";
 }
 
