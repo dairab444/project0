@@ -17,16 +17,50 @@
   margin-bottom: 20px;
 }
 
-@media (max-width:768px){
-
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-#header{
+#header {
   color: #000;
 }
 #header a:hover {
   color: #000;
-  text-decoration: none !important
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.plainlink {
+  text-decoration: none;
+  color: white;
+}
+
+.plainlink a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.greytext a:link {
+  color: #707070;
+}
+.greytext a:hover {
+  color: #000;
+}
+
+#carouselHome a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=home.css.map */
