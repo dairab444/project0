@@ -10,6 +10,8 @@
   font-family: "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: lighter;
   text-justify: newspaper;
+  background-color: #e7dddd;
+  padding-top: 30px;
 }
 
 .navbar {
@@ -79,10 +81,16 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+#offertable table .boldcon {
+  text-align: center;
+  font-weight: bolder;
+  color: #333;
+}
 #offertable th, #offertable td {
   border: 1px solid #333;
   border-collapse: collapse;
   padding: 10px;
+  text-align: center;
 }
 #offertable h3 {
   text-align: center;

@@ -15,6 +15,8 @@ $colorplink1:white;
         font-family: $font-family-sans-serif;
         font-weight: lighter;
         text-justify: newspaper;
+        background-color: #e7dddd;
+        padding-top:30px;
     }
 }
 
@@ -84,11 +86,17 @@ a:hover{
             align-self: center;
         margin-left: auto;
         margin-right: auto;
+        .boldcon{
+            text-align:center;
+            font-weight: bolder;
+            color:#333;
+        }
       }
     th, td{
         border: 1px solid #333;
         border-collapse: collapse;
         padding: 10px;
+        text-align: center;
     }
     h3{
         text-align: center;
