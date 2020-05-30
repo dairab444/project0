@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 .jumbotron {
   text-align: center;
 }
 .jumbotron p {
-  font-family: "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.jumbotron a {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container #about {
   text-align: center;
-  font-family: "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: lighter;
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-justify: newspaper;
-  background-color: #e7dddd;
   padding-top: 30px;
 }
 
@@ -71,7 +73,7 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 15px;
   text-align: center;
-  font-family: "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 #offertable table {
   width: 75%;
@@ -91,6 +93,9 @@ a:hover {
   border-collapse: collapse;
   padding: 10px;
   text-align: center;
+}
+#offertable th img, #offertable td img {
+  size: 15px;
 }
 #offertable h3 {
   text-align: center;

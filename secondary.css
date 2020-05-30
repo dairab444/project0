@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300&display=swap");
+.emphasised-heading {
+  font-family: "Roboto Mono", monospace;
+  color: #707070;
+}
+
+#subheader {
+  text-align: center;
+}
+#subheader h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+#subheader small {
+  color: #555555;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#furniturecards .card {
+  background-color: #dddddd;
+}
+#furniturecards .card h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+#furniturecards .card p {
+  font-family: "Comfortaa", cursive;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=secondary.css.map */

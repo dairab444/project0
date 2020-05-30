@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300&display=swap');
+
+$font-emphasised: 'Roboto Mono', monospace;
+$emphasised-color: #707070;
+$nomal-heading:'Ubuntu', sans-serif;
+
+.emphasised-heading{
+    font-family:$font-emphasised;
+    color:$emphasised-color;
+
+}
+#subheader{
+    text-align:center;
+    h3{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+    }
+    small{
+        color:#555555;
+        font-family:$nomal-heading;
+    }
+}
+
+#furniturecards{
+    .card{
+        background-color: #dddddd;
+    h4{
+        font-family: $nomal-heading;
+        font-weight: bolder;
+    }
+    p{
+        font-family: 'Comfortaa', cursive;
+        font-weight: lighter;
+    }
+    }
+}

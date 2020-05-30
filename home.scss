@@ -1,4 +1,6 @@
-$font-family-sans-serif: "Noto Sans","Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+$font-family-sans-serif: 'Ubuntu', "Noto Sans","Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $colorplink1:white;
 
@@ -7,15 +9,16 @@ $colorplink1:white;
         font-family: $font-family-sans-serif;
     }
     text-align: center;
+    a{
+        font-family: 'Ubuntu', sans-serif;
+    }
 }
 
 .container{
     #about{
         text-align:center;
         font-family: $font-family-sans-serif;
-        font-weight: lighter;
         text-justify: newspaper;
-        background-color: #e7dddd;
         padding-top:30px;
     }
 }
@@ -97,6 +100,9 @@ a:hover{
         border-collapse: collapse;
         padding: 10px;
         text-align: center;
+        img{
+            size:15px;
+        }
     }
     h3{
         text-align: center;
