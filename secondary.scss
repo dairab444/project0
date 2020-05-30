@@ -7,7 +7,11 @@ $nomal-heading:'Ubuntu', sans-serif;
 .emphasised-heading{
     font-family:$font-emphasised;
     color:$emphasised-color;
+}
 
+.emphasised{
+    color:#bda84a;
+    font-weight:bold;
 }
 #subheader{
     text-align:center;
@@ -25,12 +29,19 @@ $nomal-heading:'Ubuntu', sans-serif;
     .card{
         background-color: #dddddd;
     h4{
+        padding-top:5px;
+        text-align:center;
         font-family: $nomal-heading;
         font-weight: bolder;
     }
     p{
+        
         font-family: 'Comfortaa', cursive;
         font-weight: lighter;
     }
+    .special{
+        font-weight:bold;
+        color:#99831f;
     }
+}
 }
