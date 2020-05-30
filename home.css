@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .jumbotron {
   text-align: center;
 }
@@ -15,6 +19,9 @@
   font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-justify: newspaper;
   padding-top: 32px;
+}
+.container #about p {
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .navbar {
@@ -120,27 +127,26 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  div#offertable.col-lg-12.col-sm-12.col-xs-12 p {
+  div.col-lg-9.col-sm-12.col-xs-12 div#carouselHome.carousel.slide {
     display: none;
   }
 }
-@media only screen and (min-width: 601px) {
-  div#offertable.col-lg-12.col-sm-12.col-xs-12 {
-    text-align: center;
-  }
-  div#offertable.col-lg-12.col-sm-12.col-xs-12 p {
-    font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold;
-    font-size: 25px;
-  }
-  div#offertable.col-lg-12.col-sm-12.col-xs-12 p a {
-    color: #703b3b;
-    text-decoration: none;
-  }
-  div#offertable.col-lg-12.col-sm-12.col-xs-12 p a:hover {
-    color: #000;
-  }
+div#offertable.col-lg-12.col-sm-12.col-xs-12 {
+  text-align: center;
 }
+div#offertable.col-lg-12.col-sm-12.col-xs-12 p {
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 25px;
+}
+div#offertable.col-lg-12.col-sm-12.col-xs-12 p a {
+  color: #703b3b;
+  text-decoration: none;
+}
+div#offertable.col-lg-12.col-sm-12.col-xs-12 p a:hover {
+  color: #000;
+}
+
 #footer {
   margin-top: 20px;
   padding-top: 40px;
