@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-* {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .jumbotron {
   text-align: center;
 }
@@ -10,8 +6,11 @@
   font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .jumbotron a {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bolder;
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: black;
+}
+.jumbotron a:hover {
+  color: black;
 }
 
 .container #about {
