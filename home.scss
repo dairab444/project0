@@ -20,7 +20,7 @@ $colorplink1:white;
         text-align:center;
         font-family: $font-family-sans-serif;
         text-justify: newspaper;
-        padding-top:30px;
+        padding-top:32px;
     }
 }
 
@@ -60,7 +60,12 @@ a:hover{
 .nounderline{
     text-decoration:none;
     color:#000;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.caption{
+    @extend .nounderline;
+    font-family: $font-family-sans-serif;
 }
 
 .greytext{
@@ -119,6 +124,33 @@ a:hover{
         }
         a:hover{
             color:#000;
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    div#offertable.col-lg-12.col-sm-12.col-xs-12{
+        p{
+                display:none;
+          
+        }
+    }
+}
+
+@media only screen and (min-width:601px){
+    div#offertable.col-lg-12.col-sm-12.col-xs-12{
+        text-align:center;
+        p{
+            font-family:$font-family-sans-serif;
+            font-weight:bold;
+            font-size:25px;
+            a{
+                color:rgb(112, 59, 59);
+                text-decoration:none;
+            }
+            a:hover{
+                color:#000;
+            }
         }
     }
 }
