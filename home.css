@@ -20,6 +20,10 @@
 .navbar {
   margin-bottom: 20px;
 }
+.navbar a {
+  font-family: "Ubuntu", "Noto Sans", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
 
 .navbar-nav > li {
   padding-left: 30px;

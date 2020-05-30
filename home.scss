@@ -26,6 +26,10 @@ $colorplink1:white;
 
 .navbar{
     margin-bottom:20px;
+    a{
+        font-family:$font-family-sans-serif;
+        font-weight:bold;
+    }
 }
 .navbar-nav > li{
     padding-left:30px;
